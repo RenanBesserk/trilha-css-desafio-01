@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    color: white;
+}
+
+.banner, #course-content, #transform-world, #professional-challenges, footer {
+    border: solid 1px deepskyblue;
+}
+
+.banner {
+    background-image: url("/assets/images/banner.png")
+}
+
+#course-content, #professional-challenges {
+    background-color: black;
+}
+
+#transform-world {
+    background-image: url("/assets/images/woman-code.png")
+}
+
+footer {
+    background-color: black;
+        /* inserir efeito degradê black para deepskyblue */
+}
+
+span {
+    color: deepskyblue;
+}
+
+h1 {
+    color: dodgerblue;
+    text-transform: uppercase;
+    /* TRILHA DE CSS DA DIO é uma fonte diferente, verificar */
+}
+
+h2 {
+    color:deepskyblue;
+    text-transform: uppercase;
+}
+
