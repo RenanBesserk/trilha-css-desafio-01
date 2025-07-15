@@ -8,7 +8,15 @@
 }
 
 .banner {
-    background-image: url("/assets/images/banner.png")
+    background-image: url("/assets/images/banner.png");
+    background-color: black;
+    padding: 30px 100px;
+}
+
+button {
+    border: solid 3px dodgerblue;
+    background-color: 100%;
+    padding: 10px 50px;
 }
 
 #course-content, #professional-challenges {
@@ -16,7 +24,7 @@
 }
 
 #transform-world {
-    background-image: url("/assets/images/woman-code.png")
+    background-image: url("/assets/images/woman-code.png");
 }
 
 footer {
