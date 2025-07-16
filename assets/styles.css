@@ -2,6 +2,7 @@
     text-align: center;
     color: white;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -14,20 +15,23 @@
 }
 
 .banner, #course-content, #transform-world, #professional-challenges, footer {
-    border: solid 1px deepskyblue;
+    border: solid 0.2px deepskyblue;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
 }
 
 .small-break {
-    max-width: 450px;
+    max-width: 600px;
     font-size: 20px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .big-break {
-    max-width: 640px;
+    max-width: 800px;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px;
 }
 
@@ -37,22 +41,24 @@
         url("/assets/images/banner.png");
     background-size: cover;
     background-color: rgb(2, 20, 24);
-    padding: 200px 50px;
+    padding: 90px 50px;
     font-size: 20px;
 }
 
 button {
-    border: solid 3px deepskyblue;
+    border: solid 2px deepskyblue;
     color: deepskyblue;
     padding: 15px 35px;
     font-size: 15px;
     text-transform: uppercase;
     background-color: rgba(255, 99, 71, 0);
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 
 .module {
     height: 20px;
-    width: 400px;
+    width: 450px;
     border: solid 1px deepskyblue;
     border-radius: 30px;
     display: inline-block;
@@ -60,6 +66,7 @@ button {
     margin: 10px;
     background-color: rgb(49, 45, 45);
     box-shadow: inset 0px 5px 5px 1px rgba(15, 14, 14, 0.753);
+    font-size: 17px;
 }
 
 #course-content, #professional-challenges {
@@ -67,27 +74,46 @@ button {
 }
 
 #course-content {
-    padding: 80px 50px;
+    padding: 100px 50px;
 }
 
 #professional-challenges{
-    padding:  50px;
+    padding:  100px;
 }
 
 #transform-world {
-  background-image: url("/assets/images/woman-code.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 200px;
-  display: flex;
-  text-align: left;
-  font-size: x-large;
+    background-image: url("/assets/images/woman-code.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    text-align: left;
+    font-size: x-large;
+}
+
+.transform {
+    max-width: 280px;
+    font-size: 40px;
+    text-transform: lowercase;
+    font-weight: 900;
+    font-family: arial;
+    text-align: left;
+    text-shadow: 3px 2px deepskyblue;
+
+}
+
+.learning {
+    padding-bottom: 10px;
+}
+
+.evolve {
+    padding-bottom: 80px;
 }
 
 footer {
-    padding: 50px 50px 10px 50px;
+    padding: 50px 50px;
     background-color: black;
     background: linear-gradient(to bottom, #000000, #0e2830);
 
@@ -101,17 +127,20 @@ span {
 h1 {
     color: #33A8DB;
     text-transform: uppercase;
-    /* TRILHA DE CSS DA DIO é uma fonte diferente, verificar */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
 }
 
 h2 {
     color:deepskyblue;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 10px;
-
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
