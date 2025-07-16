@@ -22,12 +22,15 @@ button {
 }
 
 .module {
+    height: 20px;
+    width: 400px;
     border: solid 1px deepskyblue;
     border-radius: 30px;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 15px 50px;
     margin: 10px;
-    background-color: rgb(51, 48, 48)
+    background-color: rgb(49, 45, 45);
+    box-shadow: inset 0px 5px 5px 1px rgba(15, 14, 14, 0.753);
 }
 
 #course-content, #professional-challenges {
@@ -48,12 +51,17 @@ button {
     background-size: cover;
     padding: 200px;
     display: flex;
+    text-align: left;
+    font-size: x-large;
+    text-transform: lowercase;
 
 }
 
 footer {
     padding: 50px 50px 10px 50px;
     background-color: black;
+    background: linear-gradient(to bottom, #000000, #0e2830);
+
         /* inserir efeito degradê black para deepskyblue */
 }
 
@@ -72,3 +80,7 @@ h2 {
     text-transform: uppercase;
 }
 
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
