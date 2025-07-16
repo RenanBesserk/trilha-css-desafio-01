@@ -9,25 +9,50 @@
 
 .banner {
     background-image: url("/assets/images/banner.png");
-    background-color: black;
-    padding: 30px 100px;
+    background-color: rgb(6, 41, 51);
+    padding: 50px 50px;
 }
 
 button {
-    border: solid 3px dodgerblue;
-    background-color: 100%;
+    border: solid 3px deepskyblue;
+    color: deepskyblue;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: rgba(255, 99, 71, 0);
+}
+
+.module {
+    border: solid 1px deepskyblue;
+    border-radius: 30px;
+    display: inline-block;
     padding: 10px 50px;
+    margin: 10px;
+    background-color: rgb(51, 48, 48)
 }
 
 #course-content, #professional-challenges {
     background-color: black;
 }
 
+#course-content {
+    padding: 50px 50px 100px 50px;
+}
+
+#professional-challenges{
+    padding:  50px;
+}
+
 #transform-world {
     background-image: url("/assets/images/woman-code.png");
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    display: flex;
+
 }
 
 footer {
+    padding: 50px 50px 10px 50px;
     background-color: black;
         /* inserir efeito degradê black para deepskyblue */
 }
